@@ -10,7 +10,7 @@
     var chaining = kodeUnix
     .map(i => i-50 +kodeUnix.length)
     .filter(i=> i< 20 )
-    .reduce((x,y)=> (x+y)+kodeUnix)
+    .reduce((x,y)=> (x-50)-20y)
     
     console.log(chaining)
 
